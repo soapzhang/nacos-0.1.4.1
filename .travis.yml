@@ -1,0 +1,17 @@
+notifications:
+  email:
+    recipients:
+      - nacos_dev@linux.alibaba.com
+      - dev-nacos@googlegroups.com
+  on_success: change
+  on_failure: always
+
+dist: trusty
+
+language: java
+
+jdk:
+  - openjdk8
+  - openjdk7
+
+script:

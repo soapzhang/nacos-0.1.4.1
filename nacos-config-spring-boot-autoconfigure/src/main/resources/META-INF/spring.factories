@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.alibaba.boot.nacos.config.autoconfigure.NacosConfigAutoConfiguration
+org.springframework.boot.env.EnvironmentPostProcessor=\
+  com.alibaba.boot.nacos.config.autoconfigure.NacosConfigEnvironmentProcessor
